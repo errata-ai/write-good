@@ -5,6 +5,7 @@
   "lang": "en",
   "url": "https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip",
   "feed": "https://github.com/errata-ai/write-good/releases.atom",
+  "issues": "https://github.com/errata-ai/write-good/issues/new",
   "license": "MIT",
   "name": "write-good",
   "sources": [
