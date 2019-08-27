@@ -2,7 +2,7 @@
 
 > [`write-good`](https://github.com/btford/write-good): Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
 
-This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the guidelines enforced by the JavaScript's `write-goo ([LICENSE](https://github.com/btford/write-good/blob/master/LICENSE)) linter.
+This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the guidelines enforced by the JavaScript's `write-good` ([LICENSE](https://github.com/btford/write-good/blob/master/LICENSE)) linter.
 
 ## Getting Started
 
