@@ -1,29 +1,24 @@
-# write-good
+# write-good [![Build Status](https://travis-ci.org/errata-ai/write-good.svg?branch=master)](https://travis-ci.org/errata-ai/Microsoft) ![Vale version](https://img.shields.io/badge/vale-%3E%3D%20v1.7.0-blue.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-Based on [write-good](https://github.com/btford/write-good).
+> [`write-good`](https://github.com/btford/write-good): Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
 
-> Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.
+This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the guidelines enforced by the JavaScript's `write-goo ([LICENSE](https://github.com/btford/write-good/blob/master/LICENSE)) linter.
 
+## Getting Started
+
+> :exclamation: write-good requires Vale >= **1.7.0**. :exclamation:
+
+Download the [latest release](https://github.com/errata-ai/write-good/releases), copy the "write-good" directory to your `StylesPath`, and include it in your configuration file:
+
+```ini
+# This goes in a file named either `.vale.ini` or `_vale.ini`.
+StylesPath = path/to/some/directory
+MinAlertLevel = warning # suggestion, warning or error
+
+# Only Markdown and .txt files; change to whatever you're using.
+[*.{md,txt}]
+# List of styles to load.
+BasedOnStyles = write-good
 ```
-The MIT License (MIT)
 
-Copyright (c) 2014 Brian Ford
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+See [Usage](https://github.com/errata-ai/vale/#usage) for more information.
