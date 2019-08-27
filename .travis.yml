@@ -1,0 +1,25 @@
+language: python
+cache: bundler
+python:
+  - "3.6"
+install:
+  # Install the latest release of Vale:
+  - go get github.com/errata-ai/vale
+
+  - bundle install --jobs=3
+
+  - pip install yamllint
+  - pip install markdata
+  - pip install pyyaml
+before_script:
+  - yamllint -c '.yamllint.yml' write-good
+script:
+  - cucumber
+  - zip -r write-good.zip write-good -x "*.DS_Store"
+deploy:
+  provider: releases
+  api_key: $GITHUB_TOKEN
+  file: write-good.zip
+  skip_cleanup: true
+  on:
+    tags: true

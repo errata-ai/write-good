@@ -1,5 +1,5 @@
 extends: existence
-message: "'%s' is too wordy"
+message: "'%s' is too wordy."
 ignorecase: true
 level: warning
 tokens:
@@ -54,8 +54,8 @@ tokens:
   - benefit from
   - bestow
   - by means of
-  - by virtue of the fact that
   - by virtue of
+  - by virtue of the fact that
   - cease
   - close proximity
   - commence
@@ -132,8 +132,8 @@ tokens:
   - is applicable to
   - is authorized to
   - is responsible for
-  - it is essential
   - it is
+  - it is essential
   - it seems that
   - it was
   - magnitude
