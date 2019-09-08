@@ -2,5 +2,10 @@ extends: repetition
 message: "'%s' is repeated!"
 level: warning
 ignorecase: true
+action:
+  name: edit
+  params:
+    - truncate
+    - " "
 tokens:
   - '[\w]+'
