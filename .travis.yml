@@ -13,6 +13,7 @@ install:
   - pip install yamllint
   - pip install markdata
   - pip install pyyaml
+  - pip install docutils
 before_script:
   - yamllint -c '.yamllint.yml' write-good
 script:
