@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.3.2](https://github.com/errata-ai/write-good/tree/v0.3.2) (2019-12-13)
+[Full Changelog](https://github.com/errata-ai/write-good/compare/v0.3.1...v0.3.2)
+
+**Closed issues:**
+
+- Illusions incorrectly flags lines [\#4](https://github.com/errata-ai/write-good/issues/4)
+
 ## [v0.3.1](https://github.com/errata-ai/write-good/tree/v0.3.1) (2019-10-15)
 [Full Changelog](https://github.com/errata-ai/write-good/compare/v0.3.0...v0.3.1)
 
