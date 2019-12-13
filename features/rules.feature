@@ -19,6 +19,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:1:1:write-good.Illusions:'the' is repeated!
+      test.rst:1:1:write-good.Illusions:'foo' is repeated!
       """
 
   Scenario: Passive voice
