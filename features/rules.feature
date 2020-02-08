@@ -12,6 +12,7 @@ Feature: Rules
     Then the output should contain exactly:
       """
       test.md:3:1:write-good.E-Prime:Try to avoid using 'Here's'.
+      test.md:6:1:write-good.E-Prime:Try to avoid using 'It's'.
       """
 
   Scenario: Repeated words
